@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_homepage"
+            android:title="Homepage"
+            android:icon="@drawable/homepage_icon"/>
+
+        <item
+            android:id="@+id/nav_weathermonitor"
+            android:title="Weather Monitor"
+            android:icon="@drawable/weathermonitor_icon"/>
+
+        <item
+            android:id="@+id/nav_weatherforecast"
+            android:title="Weather Forecast"
+            android:icon="@drawable/weatherforecast_icon"/>
+
+        <item
+            android:id="@+id/nav_weatherhistory"
+            android:title="Weather History"
+            android:icon="@drawable/weatherhistory_icon"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_sendfeedback"
+            android:title="Send Feedback"
+            android:icon="@drawable/contact_icon"/>
+
+    </group>
+
+</menu>

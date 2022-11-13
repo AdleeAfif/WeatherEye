@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "316189828791",
+    "firebase_url": "https://weathereye-a1f30-default-rtdb.firebaseio.com",
+    "project_id": "weathereye-a1f30",
+    "storage_bucket": "weathereye-a1f30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316189828791:android:51fdb75c454be7283c0f32",
+        "android_client_info": {
+          "package_name": "com.example.WeatherEye"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316189828791-5rudbe8ch5p6vfqp262jdeh8nhcqe025.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkcMjbccXi52Wm8nK7mZHEWGSsSnXFDeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316189828791-5rudbe8ch5p6vfqp262jdeh8nhcqe025.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

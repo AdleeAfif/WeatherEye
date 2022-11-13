@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WeatherEye</string>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string-array name="locations">
+        <item>Kolej Kediaman 5</item>
+        <item>Fakulti Komputeran</item>
+        <item>DHUAM</item>
+    </string-array>
+</resources>
