@@ -113,6 +113,7 @@ public class WeatherHistory extends AppCompatActivity implements NavigationView.
                 for(DataSnapshot ds:snapshot.getChildren()){
 
                     //Try add date and time variable to the arduino
+                    //Testing GitHub
                     String dateDB = snapshot.child("History").child("5-11-2022").child("14:53:59").child("Date").getValue().toString();
                     String timeDB = snapshot.child("History").child("5-11-2022").child("14:53:59").child("Time").getValue().toString();
                     String tempDB = snapshot.child("History").child("5-11-2022").child("14:53:59").child("Temperature").getValue().toString();
