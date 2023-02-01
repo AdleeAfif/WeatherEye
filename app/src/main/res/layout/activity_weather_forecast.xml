@@ -48,6 +48,38 @@
 
             </androidx.appcompat.widget.Toolbar>
 
+
+            <com.github.paolorotolo.expandableheightlistview.ExpandableHeightListView
+                android:id="@+id/forecastListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:dividerHeight="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/forecastInfo" />
+
+            <TextView
+                android:id="@+id/forecastInfo"
+                android:layout_width="323dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="100dp"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+                android:text="Note: The list shows the forecast of the next 12 hours. The forecast will update every 5 minutes."
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/forecast_Toolbar" />
+
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </ScrollView>

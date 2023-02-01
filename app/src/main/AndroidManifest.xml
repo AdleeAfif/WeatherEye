@@ -2,10 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.WeatherEye">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -15,20 +15,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WeatherEye.NoActionBar">
         <activity
-            android:name="com.example.WeatherEye.SendFeedback"
+            android:name=".Homepage"
             android:exported="false" />
         <activity
-            android:name="com.example.WeatherEye.WeatherHistory"
+            android:name=".SendFeedback"
             android:exported="false" />
         <activity
-            android:name="com.example.WeatherEye.WeatherForecast"
+            android:name=".WeatherHistory"
             android:exported="false" />
         <activity
-            android:name="com.example.WeatherEye.WeatherMonitor"
+            android:name=".WeatherForecast"
             android:exported="false" />
         <activity
-            android:name="com.example.WeatherEye.Homepage"
-            android:exported="true">
+            android:name=".WeatherMonitor"
+            android:exported="false" />
+        <activity
+            android:name=".splashScreen"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -50,7 +53,6 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAFTMz3nsDwCJK8bnlabUFHHRkfrsmCGdY" />
-
     </application>
 
 </manifest>

@@ -6,13 +6,23 @@ public class HistoryList {
     private String Temperature;
     private String Humidity;
     private String Raindrop;
+    private String ID;
 
-    public HistoryList(String Time, String Date, String Temperature, String Humidity, String Raindrop) {
+    public HistoryList(String ID, String Time, String Date, String Temperature, String Humidity, String Raindrop) {
         this.Time = Time;
         this.Date = Date;
         this.Temperature = Temperature;
         this.Humidity = Humidity;
         this.Raindrop = Raindrop;
+        this.ID = ID;
+    }
+
+    public String getID() {
+        return ID;
+    }
+
+    public void setID(String ID) {
+        this.ID = ID;
     }
 
     public String getTemperature() {

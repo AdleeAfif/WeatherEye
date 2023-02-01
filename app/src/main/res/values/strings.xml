@@ -3,9 +3,19 @@
 
     <string name="navigation_drawer_open">Open Navigation Drawer</string>
     <string name="navigation_drawer_close">Close Navigation Drawer</string>
-    <string-array name="locations">
-        <item>Kolej Kediaman 5</item>
-        <item>Fakulti Komputeran</item>
-        <item>DHUAM</item>
+    <string-array name="days">
+        <item>All</item>
+        <item>Today</item>
+        <item>Yesterday</item>
+        <item>2 Days Ago</item>
+        <item>3 Days Ago</item>
+        <item>4 Days Ago</item>
+    </string-array>
+    <string-array name="forecasts">
+        <item>Today</item>
+        <item>Tomorrow</item>
+        <item>Next 2 Days</item>
+        <item>Next 3 Days</item>
+        <item>Next 4 Days</item>
     </string-array>
 </resources>

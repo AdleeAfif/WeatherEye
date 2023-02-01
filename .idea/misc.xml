@@ -3,19 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/drawable/contact_icon.xml" value="0.2475" />
+        <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/drawable/customborder.xml" value="0.199" />
+        <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/drawable/customborderhistory.xml" value="0.199" />
         <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/drawable/homepage_forecast.xml" value="0.195" />
+        <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/drawable/menu_icon.xml" value="0.194" />
         <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/drawable/weatherhistory_icon.xml" value="0.329" />
         <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/drawable/weathermonitor_icon.xml" value="0.329" />
         <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/layout/activity_send_feedback.xml" value="0.264" />
+        <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/layout/activity_splash_screen.xml" value="0.2477355072463768" />
         <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/layout/activity_weather_forecast.xml" value="0.3625" />
-        <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/layout/activity_weather_history.xml" value="0.264" />
+        <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/layout/activity_weather_history.xml" value="0.33" />
         <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/layout/activity_weather_monitor.xml" value="0.264" />
+        <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/layout/customborder.xml" value="0.2477355072463768" />
         <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/layout/dropdown_item.xml" value="0.2875905797101449" />
         <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/layout/expandablehistory.xml" value="0.2875905797101449" />
-        <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/layout/historyitem_layout.xml" value="0.25" />
+        <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/layout/forecastitem_layout.xml" value="0.4" />
+        <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/layout/historyitem_layout.xml" value="0.33" />
         <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/layout/homepage.xml" value="0.22" />
+        <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/layout/recorditem_layout.xml" value="0.22" />
         <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/layout/weathereye_header.xml" value="0.3625" />
         <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/menu/main_menu.xml" value="0.3625" />
+        <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1935" />
+        <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2475" />
+        <entry key="..\:/Program Files/Android/WeatherEye/app/src/main/res/mipmap-anydpi-v26/weathereye_icon.xml" value="0.226" />
       </map>
     </option>
   </component>

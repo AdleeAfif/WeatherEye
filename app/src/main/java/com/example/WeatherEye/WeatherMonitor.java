@@ -103,7 +103,7 @@ public class WeatherMonitor extends AppCompatActivity implements NavigationView.
 
         //Retrieve Data from Firebase
         FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference myRef = database.getReference("WeatherEye");
+        DatabaseReference myRef = database.getReference("Live Monitoring");
 
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
@@ -113,14 +113,14 @@ public class WeatherMonitor extends AppCompatActivity implements NavigationView.
                     String humidDB = dataSnapshot.child("Humidity").getValue().toString();
                     String rainDB = dataSnapshot.child("Raindrop").getValue().toString();
                     String timeDB = dataSnapshot.child("Time").getValue().toString();
-                    String dateDB = dataSnapshot.child("Date").getValue().toString();
+                    //String dateDB = dataSnapshot.child("Date").getValue().toString();
 
                     tempText.setText(tempDB + "°C");
                     humidText.setText(humidDB + "%");
                     rainText.setText(rainDB);
 
                     //Display Last Data is Updated
-                    lastUpdated.setText("Last Updated: " + timeDB + ", " + dateDB);
+                    lastUpdated.setText("Last Updated: " + timeDB);
 
                 }
                 else{
